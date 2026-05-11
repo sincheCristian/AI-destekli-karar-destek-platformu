@@ -88,7 +88,7 @@ export default function App() {
    */
   useEffect(() => {
     if (isAnalyzing) {
-      const duration = 6000; 
+      const duration = 15000; 
       const interval = 50;
       const increment = (interval / duration) * 100;
 
